@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omjee.project.Main3Activity"
+    android:background="@drawable/bckg_image">
+<EditText
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:background="@color/white"
+    android:layout_marginTop="20dp"
+    android:hint="enter the id"/>
+    <EditText
+        android:id="@+id/named"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/id"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="enter the name"/>
+    <EditText
+        android:id="@+id/emailed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/named"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="enter the email"/>
+    <EditText
+        android:id="@+id/phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/emailed"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="enter the phone" />
+    <EditText
+        android:id="@+id/pswed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/phn"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="enter the password" />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pswed"
+        android:layout_marginTop="20dp"
+        android:text="UPDATE"
+        android:background="@color/red"/>
+
+</RelativeLayout>

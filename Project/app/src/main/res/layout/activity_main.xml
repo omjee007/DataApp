@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omjee.project.MainActivity"
+    android:background="@drawable/bckg_image">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill the following details"
+        android:textSize="35dp"
+        android:gravity="fill_horizontal"
+        android:textColor="@color/colortext"/>
+    <EditText
+        android:id="@+id/userid"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:background="@color/white"
+        android:textSize="25dp"
+        android:hint="Please provide your Email"
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userid"
+        android:background="@color/white"
+        android:textSize="22.5dp"
+        android:hint="Please provide your paswword"
+        android:layout_centerInParent="true"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="SIGN IN"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/red"/>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:text="NOT A MEMBER SIGNUP"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/red"/>
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:text="View All"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/red"/>
+
+</RelativeLayout>
